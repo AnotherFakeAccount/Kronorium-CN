@@ -9,7 +9,8 @@ module.exports={
         sidebar:{
             '/zh/guide/':[
                 '',
-                'bo4/voyage_of_despair/voyage_of_despair'
+                'bo4/voyage_of_despair/voyage_of_despair',
+                'bo4/blood_of_the_dead/blood_of_the_dead'
             ],
         },
     },
