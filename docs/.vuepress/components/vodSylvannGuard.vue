@@ -1,18 +1,13 @@
-<template>
-    <four-column-layout>
-        <template #column1>
-            <sylvann-guard-card title=""></sylvann-guard-card>
-        </template>
-        <template #column2>
-            <sylvann-guard-card></sylvann-guard-card>
-        </template>
-        <template #column3>
-            <sylvann-guard-card></sylvann-guard-card>
-        </template>
-        <template #column4>
-            <sylvann-guard-card></sylvann-guard-card>
-        </template>
-    </four-column-layout>
+<template lang="pug">
+    four-column-layout
+        template(#column1)
+            sylvann-guard-card(title="")
+        template(#column2)
+            sylvann-guard-card
+        template(#column3)
+            sylvann-guard-card
+        template(#column4)
+            sylvann-guard-card
 </template>
 
 <script>

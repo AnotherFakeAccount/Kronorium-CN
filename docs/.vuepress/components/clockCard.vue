@@ -1,17 +1,13 @@
-<template>
-    <card image>
-        <template #image>
-            <slot></slot>
-        </template>
-        <p class="title has-text-white">{{title}}</p>
-        <b-select placeholder="位置">
-            <option v-for="option in this.options">
-                {{ option }}
-            </option>
-        </b-select>
-        <p></p>
-        <b-timepicker placeholder="时间"></b-timepicker>
-    </card>
+<template lang="pug">
+    card(image="")
+        template(#image="")
+            slot
+        p.title.has-text-white {{title}}
+        b-select(placeholder="位置")
+            option(v-for="option in this.options")
+                | {{ option }}
+        p
+        b-timepicker(placeholder="时间")
 </template>
 
 <script>

@@ -1,19 +1,13 @@
-<template>
-    <card header >
-        <p class="title has-text-white">
-            {{title}}
-            <span>
-                <slot></slot>
-            </span>
-        </p>
-        <b-field>
-            <b-select placeholder="数字">
-                <option v-for="option in this.options">
-                    {{ option }}
-                </option>
-            </b-select>
-        </b-field>
-    </card>
+<template lang="pug">
+    card(header="")
+        p.title.has-text-white
+            | {{title}}
+            span
+                slot
+        b-field
+            b-select(placeholder="数字")
+                option(v-for="option in this.options")
+                    | {{ option }}
 </template>
 
 <script>

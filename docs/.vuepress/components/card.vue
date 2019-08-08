@@ -1,24 +1,16 @@
-<template>
-    <div class="card" >
-        <header v-if="header" class="card-header">
-            <p class="card-header-title">
-                <slot name="header"></slot>
-            </p>
-        </header>
-        <div v-if="image" class="card-image">
-            <figure class="image">
-                <slot name="image"></slot>
-            </figure>
-        </div>
-        <div class="card-content">
-            <div class="content">
-                <slot></slot>
-            </div>
-        </div>
-        <footer v-if="footer" class="card-footer">
-            <slot name="footer"></slot>
-        </footer>
-    </div>
+<template lang="pug">
+    .card
+        header.card-header(v-if="header")
+            p.card-header-title
+                slot(name="header")
+        .card-image(v-if="image")
+            figure.image
+                slot(name="image")
+        .card-content
+            .content
+                slot
+        footer.card-footer(v-if="footer")
+            slot(name="footer")
 </template>
 
 <script>

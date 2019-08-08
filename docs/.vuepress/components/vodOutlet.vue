@@ -1,18 +1,13 @@
-<template>
-    <four-column-layout>
-        <template #column1>
-            <outlet-card title="酸" class="has-background-success"></outlet-card>
-        </template>
-        <template #column2>
-            <outlet-card title="水" class="has-background-info"></outlet-card>
-        </template>
-        <template #column3>
-            <outlet-card title="电" class="has-background-warning"></outlet-card>
-        </template>
-        <template #column4>
-            <outlet-card title="火" class="has-background-danger"></outlet-card>
-        </template>
-    </four-column-layout>
+<template lang="pug">
+    four-column-layout
+        template(#column1)
+            outlet-card.has-background-success(title="酸")
+        template(#column2)
+            outlet-card.has-background-info(title="水")
+        template(#column3)
+            outlet-card.has-background-warning(title="电")
+        template(#column4)
+            outlet-card.has-background-danger(title="火")
 </template>
 
 <script>

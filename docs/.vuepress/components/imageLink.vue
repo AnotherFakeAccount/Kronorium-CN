@@ -1,10 +1,8 @@
-<template>
-    <span>
-        <a @click="isImageModalActive = true">{{title}}</a>
-        <b-modal :active.sync="isImageModalActive">
-            <slot></slot>
-        </b-modal>
-    </span>
+<template lang="pug">
+    span
+        a(@click="isImageModalActive=true") {{title}}
+        b-modal(:active.sync="isImageModalActive")
+            slot
 </template>
 
 <script>

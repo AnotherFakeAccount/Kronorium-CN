@@ -1,22 +1,15 @@
-<template>
-    <card class="has-text-white">
-        <p class="title has-text-white">
-            {{title}}
-        </p>
-        <b-field>
-            <b-select placeholder="位置">
-                <option v-for="option in this.options">
-                    {{ option }}
-                </option>
-            </b-select>
-        </b-field>
-        <div class="field">
-            <b-switch>已激活</b-switch>
-        </div>
-        <div class="field">
-            <b-switch>挑战完成</b-switch>
-        </div>
-    </card>
+<template lang="pug">
+    card.has-text-white
+        p.title.has-text-white
+            | {{title}}
+        b-field
+            b-select(placeholder="位置")
+                option(v-for="option in this.options")
+                    | {{ option }}
+        .field
+            b-switch 已激活
+        .field
+            b-switch 挑战完成
 </template>
 
 <script>

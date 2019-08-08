@@ -1,5 +1,7 @@
 # 绝望之旅
+
 ## 武器强化机
+
 *Note: 如果这是你第一次玩, 我强烈建议你先熟悉一下这艘船(地图)。 至少你得很轻松的知道如何从出生地到引擎室的路线。 然后再尝试去解锁这张图的任务彩蛋。*
 
 当你进入这张地图时，你会出生在船头。 你的第一个目标就是需要打开路上各种各样的门到达船尾（船尾甲板）。 当你接近船尾时，你应该会发现神器在船尾的小道上（一般发着很亮的光）。 你需要爬上小道，然后对着<imageLink title="神器"><img src="./image/artifact-1.jpeg"/></imageLink> 进行 交互（按`F`），然后就会解锁船上的封锁区域，开始你的彩蛋步骤。
@@ -91,7 +93,7 @@
 4. 头等舱休息室
     - 时钟 - 就在宙斯祭坛的正对面。在壁炉架上。
     - 符号 - 在墙上时钟的右边。在抽奖盒子生成区域的左边。
-    - <imageLink title="对应图片位置"><img src="./image/clock-location-1st.png"/></imageLink>  丨  <videoLink title="视频教程"><source src="./video/time4.mp4"/></videoLink>
+    - <imageLink title="对应图片位置"><img src="./image/clock-location-1st.jpg"/></imageLink>  丨  <videoLink title="视频教程"><source src="./video/time4.mp4"/></videoLink>
 5. 厨房
     - 时钟- 从餐厅进入时在房间的右侧。 在燃烧着的窗户右边的墙上。
     - 符号 - 从餐厅进入时在房间的右侧。 在房间中央的橱柜上。
@@ -104,15 +106,15 @@
 1. 舰桥室
     - 在舰桥室的最远点。露天的房间里。 船舵旁边有四个刻度盘。
     - 刻度盘标有适当的符号，因此请检查每个刻度盘的每一侧，并将刻度盘的表面与符号相匹配。
-    - <imageLink title="对应图片位置"><img src="./image/dials-bridge.png"/></imageLink>  丨  <videoLink title="视频教程"><source src="./video/min-set.mp4"/></videoLink>
+    - <imageLink title="对应图片位置"><img src="./image/dials-bridge.jpg"/></imageLink>  丨  <videoLink title="视频教程"><source src="./video/min-set.mp4"/></videoLink>
 2. 船尾甲板
     - 在神器最初的地方，会有一个船舵，上面覆盖了大量的粘液和两个刻度盘。
     - 左边的刻度盘代表了气元素（带杠正三角）. 右边的刻度盘代表了土元素（带杠负三角）
-    - <imageLink title="对应图片位置"><img src="./image/dials-poopdeck.png"/></imageLink>  丨  <videoLink title="视频教程"><source src="./video/hour-set.mp4"/></videoLink>
+    - <imageLink title="对应图片位置"><img src="./image/dials-poopdeck.jpg"/></imageLink>  丨  <videoLink title="视频教程"><source src="./video/hour-set.mp4"/></videoLink>
 3. 引擎室
     - 在奥丁神像前面的楼梯底部。
     - 杆子上有四个刻度盘。左上方和右下方的刻度盘可以看见被损坏。剩余一个完好的左下角与火元素符号（正三角）相对应。另外一个完好的右上角与水元素符号（负三角）相对应。
-    - <imageLink title="对应图片位置"><img src="./image/engineroom-dials.png"/></imageLink>  丨  <videoLink title="视频教程"><source src="./video/hour-set2.mp4"/></videoLink>
+    - <imageLink title="对应图片位置"><img src="./image/engineroom-dials.jpg"/></imageLink>  丨  <videoLink title="视频教程"><source src="./video/hour-set2.mp4"/></videoLink>
 ### 时钟和符号
 #### 寻找符号
 一旦您第一次激活神器，一系列符号将出现在地图的四个位置。 这些位置是从六个位置中随机选取的。
@@ -127,7 +129,7 @@
 #### 船尾甲板
 只有两个未标记的刻度盘在神器出生的同一地点（小道上） 左边的刻度盘代表着时钟上的 时针 ，代表的元素符号为气元素（带杠正三角）. 右边的刻度盘代表着时钟上的 时针 ，代表的元素符号为土元素（带杠负三角）. 
 #### 引擎室
-在奥丁祭坛前的楼梯上，你会看到最后两个刻度盘。 虽然管道上有四个刻度盘，但只有左下和右上可以移动（其余两个损坏了）。 左下角的刻度盘代表着时钟上的 时针 ，代表的元素符号为火元素（正三角）. 右上角的刻度盘代表着时钟上的 时针 ，代表的元素符号为水元素（负三角）. <imageLink title="参考截图"><img src="./image/engineroom-dials.png"/></imageLink>
+在奥丁祭坛前的楼梯上，你会看到最后两个刻度盘。 虽然管道上有四个刻度盘，但只有左下和右上可以移动（其余两个损坏了）。 左下角的刻度盘代表着时钟上的 时针 ，代表的元素符号为火元素（正三角）. 右上角的刻度盘代表着时钟上的 时针 ，代表的元素符号为水元素（负三角）. <imageLink title="参考截图"><img src="./image/engineroom-dials.jpg"/></imageLink>
 #### 确保检查
 当你听到一个巨大的且不祥的声音，而且刻度不能再调节的时候， 代表着这个步骤已经完成了，你可以移动到下一步：“插座”步骤。
 ## 插座
@@ -152,7 +154,7 @@
 - <imageLink title="对应图片位置"><img src="./image/outlet-grand.jpeg"/></imageLink>  丨  <videoLink title="视频教程"><source src="./video/2.mp4"/></videoLink>
 3. 餐厅
 - 拉神像的左侧. 在一面非常小的墙的另一面.
-- <imageLink title="对应图片位置"><img src="./image/outlet-dinnghall.png"/></imageLink>  丨  <videoLink title="视频教程"><source src="./video/3.mp4"/></videoLink>
+- <imageLink title="对应图片位置"><img src="./image/outlet-dinnghall.jpg"/></imageLink>  丨  <videoLink title="视频教程"><source src="./video/3.mp4"/></videoLink>
 4. 头等舱休息室
 - 在宙斯神像左侧的支撑柱上.
 - <imageLink title="对应图片位置"><img src="./image/outlet-1stclass.jpeg"/></imageLink>  丨  <videoLink title="视频教程"><source src="./video/4.mp4"/></videoLink>
@@ -197,25 +199,25 @@
 
 ### 位置
 1. 部件1
-- ![部件1](./image/distillery-piece-1.png)
+- ![部件1](./image/distillery-piece-1.jpg)
 - <imageLink title="厨房"><img src="./image/distillery-piece-1-location.jpeg"/></imageLink> - 从大旋梯/餐厅左侧进入时，在厨房门左侧， 放在火柜台上的小东西。
 - 厨房 - 从大旋梯/餐厅右侧进入时，在厨房门右侧， 在最右边墙上的一组架子上。
 2. 部件2
-- ![部件2](./image/distillery-piece-2.png)
+- ![部件2](./image/distillery-piece-2.jpg)
 - 货仓 - 在货仓区域中央。在一堆燃烧的盒子和牛奶罐上。 它就在一个油灯的左边。
 - <imageLink title="货仓"><img src="./image/distillery-piece-2-location1.jpeg"/></imageLink>  - 在排水阀右侧。
 3. 部件3
-- ![部件3](./image/distillery-piece-3.png)
+- ![部件3](./image/distillery-piece-3.jpg)
 - <imageLink title="头等舱休息室"><img src="./image/distillery3.jpeg"/></imageLink>  - A 甲板. 在离开大旋梯时，穿过倒在地上的门。 蒸馏壶将放在 右手边 的第一张桌子上。
 - <imageLink title="头等舱休息室"><img src="./image/distillery32.jpeg"/></imageLink>  - A 甲板. 在离开大旋梯时，穿过倒在地上的门。 壶将放在拐角处 左手边 的一张小桌子上。
 
 一旦蒸馏器组装完成，你需要从元素僵尸身上收集元素器官。 要做到这一点，只需要用海怪杀死一只元素僵尸，就会掉落相应的元素器官。 当然，不是每个元素物品都是100%掉落，可能你需要多杀几个，这个看脸。 当你捡起了对应元素僵尸的掉落物后，可以在物品栏看到。
 
 ::: tip 元素掉落物
-- 火僵尸 - <imageLink title="浓缩等离子体"><img src="./image/items-fire.png"/></imageLink>
+- 火僵尸 - <imageLink title="浓缩等离子体"><img src="./image/items-fire.jpg"/></imageLink>
 - 酸液/毒僵尸 - 浓缩腐化(这个掉落物是完成 管道 主线任务 彩蛋的必须步骤)
-- 水僵尸 - <imageLink title="浓缩净化"><img src="./image/item-water.png"/></imageLink>
-- 电僵尸 - <imageLink title="浓缩辐射"><img src="./image/items-eletrac.png"/></imageLink>
+- 水僵尸 - <imageLink title="浓缩净化"><img src="./image/item-water.jpg"/></imageLink>
+- 电僵尸 - <imageLink title="浓缩辐射"><img src="./image/items-eletrac.jpg"/></imageLink>
 :::
 
 ## 管道
