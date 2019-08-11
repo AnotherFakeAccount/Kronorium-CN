@@ -1,4 +1,5 @@
 {
+  "license": "GPL-3.0-or-later",
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
@@ -20,6 +21,7 @@
   },
   "dependencies": {
     "buefy": "^0.8.2",
+    "bulma-extensions": "^6.2.7",
     "sugar": "^2.0.6"
   }
 }
