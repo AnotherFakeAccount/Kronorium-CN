@@ -1,0 +1,8 @@
+//Import Bulma's core
+@import "~bulma/sass/utilities/_all";
+
+$box-padding:0.1rem;
+
+// Import Bulma and Buefy styles
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
