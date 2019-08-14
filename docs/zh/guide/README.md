@@ -1,8 +1,3 @@
-# Guide
+# 欢迎来到 Kronorium-CN
 
-balabala
-[xxx](logo.png)
-
-## And more..
-
-balabala
+Hello Kronorium-CN
