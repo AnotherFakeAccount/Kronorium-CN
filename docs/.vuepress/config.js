@@ -1,10 +1,12 @@
 module.exports={
-    title:'黑色行动：僵尸指南',
-    description:'僵尸指南·中国站',
+    title:'Kronorium CN',
+    description:'使命召唤黑色行动僵尸指南',
     themeConfig:{
         nav:[
-            {text:'指引',link:'/zh/guide/'},
-            {text:'英文站',link:'http://codzombies.info/'}
+            {text:'游戏资料库',link:'/zh/guide/'},
+            {text:'僵尸编年史',link:'/zh/chronicles/chronicles'},
+            {text:'FAQ',link:'/zh/faq/faq'},
+            {text:'加入我们',link:'/zh/contribute/contribute'},
         ],
         sidebar:{
             '/zh/guide/':[
@@ -12,6 +14,15 @@ module.exports={
                 'bo4/voyage_of_despair/voyage_of_despair',
                 'bo4/blood_of_the_dead/blood_of_the_dead'
             ],
+            '/zh/contribute/':[
+                'contribute'
+            ],
+            '/zh/chronicles/':[
+                'chronicles'
+            ],
+            '/zh/faq/':[
+                'faq'
+            ]
         },
     },
     plugins: {
@@ -27,7 +38,7 @@ module.exports={
           }
         }
     },
-    base:'/black-ops-zombies-guide/',
+    base:'/Kronorium-CN//',
     head: [
         ['link', { rel: 'manifest', href: '/manifest.json' }],
         ['link', { rel: 'icon', href: '/Icon-512.png' }],

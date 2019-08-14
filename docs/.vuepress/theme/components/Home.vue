@@ -28,7 +28,7 @@
                   img(v-if='lineItem.storylineLogo', :src='$withBase(lineItem.storylineLogo)')
                 .title.has-text-white.is-center.storylineName {{lineItem.storylineName}}
               .level-item.is-divider
-            .columns.is-multiline.is-mobile.is-variable.is-8(v-if='lineItem.map && lineItem.map.length')
+            .columns.is-multiline.is-mobile.is-variable.is-8-desktop(v-if='lineItem.map && lineItem.map.length')
               .column.is-half-desktop.is-half-tablet.is-full-touch(:key='mapIndex', v-for='(mapItem, mapIndex) in lineItem.map')
                 page-link(:action-link='mapItem.actionLink')
                   .card
@@ -41,11 +41,13 @@
     footer.footer.has-background-black
       .content.has-text-centered
         a(href='https://bulma.io')
-          img(src='../image/made-with-bulma.png', alt='Made with Bulma', width='256', height='48')
+          img(src='../image/made-with-bulma.png', alt='Made with Bulma', width='128', height='24')
         br
-        a.has-text-grey-light(href='https://github.com/NeroBlackstone') Front-end Developer : GitHub_NeroBlackstone
+        span.has-text-grey-light Front-end Developer :
+        a.has-text-grey-light(href='https://github.com/NeroBlackstone') GitHub_NeroBlackstone
         br
-        a.has-text-grey-light(href='https://space.bilibili.com/317536') Front-end Designer : Bilibili_DragonGJY
+        span.has-text-grey-light Front-end Designer :
+        a.has-text-grey-light(href='https://space.bilibili.com/317536') Bilibili_DragonGJY
 
 </template>
 
