@@ -33,14 +33,16 @@ module.exports={
             serviceWorker: true,
             updatePopup: {
                 message: "有新内容",
-                popupComponent: 'MySWUpdatePopup',
+                //popupComponent: 'MySWUpdatePopup',
                 buttonText: "刷新"
           }
         }
     },
-    base:'/Kronorium-CN//',
+    base:'/Kronorium-CN/',
     head: [
         ['link', { rel: 'manifest', href: '/manifest.json' }],
-        ['link', { rel: 'icon', href: '/Icon-512.png' }],
+        ['link', { rel: 'icon', href: '/logo/android/Icon-512.png' }],
+        ['link', { rel: 'apple-touch-icon', sizes:'180x180',href: '/logo/ios/Icon-180.png' }],
+        ['meta',{name:'theme-color',content:'#ffffff'}]
     ],
 };
