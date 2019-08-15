@@ -28,7 +28,7 @@ node.js为本项目的运行时。
 
 打开Powershell，输入如下命令验证安装
 
-``` ps1
+```  
 node --version
 ```
 
@@ -48,7 +48,7 @@ windows-build-tools会安装python 2.7和vs 2017构建工具，node-nyp需要这
 
 以管理员模式打开powershell，输入
 
-``` ps1
+```  
 npm install --global --production windows-build-tools
 ```
 
@@ -57,6 +57,13 @@ npm install --global --production windows-build-tools
 看到All done则安装成功。
 
 ### git 的安装与配置
+
+::: warning
+ 如果你是第一次听说git，那你可以忽略下面所有和git有关的步骤，将markdown和素材在qq群内交给管理员代为合并。
+ 
+ 你可以去[主仓库地址](https://github.com/kronorium-cn/Kronorium-CN)下载压缩包部署
+
+:::
 
 git为本项目的版本控制工具
 
@@ -141,6 +148,24 @@ git config --global user.name "AnotherFackAccount"
 git clone  https://github.com/AnotherFakeAccount/Kronorium-CN.git
 ```
 
+然后请配置远程仓库
+
+```
+git remote add upstream https://github.com/kronorium-cn/Kronorium-CN.git
+```
+
+查看一下远程仓库，应该是这样的
+```
+git remote -v
+```
+
+```
+origin  https://github.com/AnotherFakeAccount/Kronorium-CN.git (fetch)
+origin  https://github.com/AnotherFakeAccount/Kronorium-CN.git (push)
+upstream        https://github.com/kronorium-cn/Kronorium-CN.git (fetch)
+upstream        https://github.com/kronorium-cn/Kronorium-CN.git (push)
+```
+
 你会下载到一个名为Kronorium-CN的文件，打开可以看到源码，对文件夹右键，再次选择git bash here。这次你要创建一个分支，并切换到该分支上。命令为git checkout -b + 分支名，假设我们分支名为change-readme，命令为：
 
 ```
@@ -153,7 +178,7 @@ git checkout -b change-readme
 
 然后再对这个文件夹右键，选择open with code，vs code会打开这个文件夹。
 
-## 文档编写人员需要知道的文件夹结构
+## 目录结构
 
 本项目用到的静态网页生成工具为[vuepress](https://v1.vuepress.vuejs.org/zh/)，你可以在上面了解更多关于目录结构的信息。
 
@@ -162,15 +187,17 @@ Kronorium-CN-master--docs (代表所有文档)
                      |-README.md(首页内容配置)
                      |-zh(中文内容)
                      | |-guide（所有的地图攻略放在这里）
-                     |   |-bo4(黑色行动4的攻略)
-                     |     |-voyage_of_despair（绝望之旅的内容）
-                     |       |-video（绝望之旅文档内的视频内容）
-                     |       |-image（绝望之旅文档内的图片内容）
-                     |       |-audio（绝望之旅文档内的音频内容）
-                     |       |-voyage_of_despair.md（绝望之旅的文档内容）
-                     |     ...
-                     |     |-其余地图
-                     |
+                     | |  |-bo4(黑色行动4的攻略)
+                     | |    |-voyage_of_despair（绝望之旅的内容）
+                     | |      |-video（绝望之旅文档内的视频内容）
+                     | |      |-image（绝望之旅文档内的图片内容）
+                     | |      |-audio（绝望之旅文档内的音频内容）
+                     | |      |-voyage_of_despair.md（绝望之旅的文档内容）
+                     | |    ...
+                     | |    |-其余地图
+                     | |-contribute （贡献指南文章）
+                     | |-chronicles （僵尸编年史文章）
+                     | |-faq (faq文章)
                      |-.vuepress（存放了一些vue组件和网页源码）
                         |components(存放了页面内用的vue组件和组件用到的静态资源)
                         |theme（vue主题源码）
@@ -183,7 +210,7 @@ Kronorium-CN-master--docs (代表所有文档)
 
 除了docs/readme.md文件,zh文件夹,和.vuepress文件夹的config.js，其余的文件禁止文档维护人员修改
 
-### 运行项目
+## 运行项目
 
 在vs code的explorer侧边栏中，右键，选择open in terminal。
 
@@ -206,7 +233,7 @@ yarn docs:dev
 
 ![源码](./image/src3.jpg)
 
-### 编写文档
+## 编写文档
 
 这次我们修改docs/zh/guide/readme.md页面
 
@@ -220,7 +247,45 @@ yarn docs:dev
 
 ![源码](./image/src5.jpg)
 
-### 提交文档
+## markdown格式
+
+码字需要markdown格式，你可以在这里学习：[例子](https://markdown-it.github.io/)
+
+另外vuepress提供了一些[markdown扩展](https://v1.vuepress.vuejs.org/zh/guide/markdown.html#markdown-%E6%8B%93%E5%B1%95)
+
+另外本项目也提供了一些vue组件供在markdown内使用：
+
+```
+//插入显示图片的链接
+<imageLink title="链接文字"><img src="./image/图片名"/></imageLink>
+```
+例如：<imageLink title="插入显示图片的链接"><img src="./image/src5.jpg"/></imageLink>
+
+```
+//插入视频链接
+<videoLink title="链接文字"><source src="./video/视频名"/></videoLink>
+```
+
+```
+//插入音乐
+<audio controls><source src="./audio/音乐文件名"></audio>
+```
+
+另外qq群内有更详细的文档介绍。
+
+## 静态文件格式要求
+
+由于pwa会自动缓存静态文件到客户端本地，也为了更加苗条的网页打包大小，因此对静态文件格式做一些要求：
+
+图片若非logo，一律使用jpg格式，禁止png。
+
+视频请压缩到480p，30fps，700kbps码率左右。mp4格式。
+
+音乐压缩到96kbps。mp3格式。
+
+看起来压缩有点严格，实际上我认为在传输速率和可视/读性找到了一个比较好的平衡。原始上万码率的视频对移动网络几乎是不可接受的。请理解。
+
+## 提交文档
 
 你完成了所有的文档编写的工作。在网页内确认无误。在vs code下方的终端(Terminal)中按`ctrl+c`结束vuepress进程。
 
@@ -263,3 +328,22 @@ To https://github.com/AnotherFakeAccount/Kronorium-CN.git
 
 ![github](./image/github_website12.jpg)
 
+## 再一次贡献
+
+你想再次贡献，但是往往主仓库代码已经变动了，这就需要同步主仓库的代码。请依次执行：
+
+```
+git fetch upstream
+git checkout master
+git merge upstream/master
+```
+
+再更新依赖：
+
+```
+yarn install
+```
+
+现在你的代码与主分支已经同步。若有冲突，推荐备份你的修改，重新clone原项目。
+
+之后请建立新分支，下面的步骤都和第一次贡献一样。

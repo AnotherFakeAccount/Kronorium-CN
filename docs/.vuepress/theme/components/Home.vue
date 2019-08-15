@@ -43,10 +43,10 @@
         a(href='https://bulma.io')
           img(src='../image/made-with-bulma.png', alt='Made with Bulma', width='128', height='24')
         br
-        span.has-text-grey-light Front-end Developer :
+        span.has-text-grey-light Front-end Developer:
         a.has-text-grey-light(href='https://github.com/NeroBlackstone') GitHub_NeroBlackstone
         br
-        span.has-text-grey-light Front-end Designer :
+        span.has-text-grey-light Front-end Designer:
         a.has-text-grey-light(href='https://space.bilibili.com/317536') Bilibili_DragonGJY
 
 </template>
